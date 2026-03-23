@@ -1,6 +1,6 @@
 import { StrictMode }  from "react";
 import { createRoot }  from "react-dom/client";
-import { ShopProvider } from "./context/ShopContext";
+import { ShopProvider } from "./context/ShopContext.jsx";
 import App             from "./App";
 import "./styles/global.css";
 
