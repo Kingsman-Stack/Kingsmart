@@ -4,7 +4,7 @@ import { ShopProvider } from "./context/ShopContext.jsx";
 import App             from "./App";
 import "./styles/global.css";
 
-createRoot(document.getElementById("app")).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* ShopProvider wraps the entire tree so every component can access shared state */}
     <ShopProvider>
